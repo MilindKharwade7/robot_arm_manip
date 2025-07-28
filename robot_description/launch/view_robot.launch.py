@@ -13,7 +13,7 @@ def generate_launch_description():
     urdf_file_path = PathJoinSubstitution([
         FindPackageShare('robot_description'), 
         'urdf', 
-        'one_dof_arm.urdf'
+        '6_dof_arm.urdf.xacro'
     ])
 
     rviz_config_path = PathJoinSubstitution([
